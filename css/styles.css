@@ -60,3 +60,27 @@ Hero Image Styling
 
 
 ============================= */
+.top-hero{
+    background: url("../images/5background.jpg") center/cover no-repeat;
+    min-height: 50vh;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    margin-top: 137px;
+    color: #F7F4F9;
+    left: 50%;
+    font-size: 39px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 12%;
+}
+
+.navigation-bar {
+    padding-right: .8125rem;
+    padding-left: .8125rem;
+    text-align: center;
+    font-size: 24px;
+    margin: 50px 0;
+}
