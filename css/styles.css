@@ -1,0 +1,62 @@
+/*========================
+
+
+University Styling
+
+
+
+==========================*/
+
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/*========================
+
+
+Hearder Stylling
+
+
+
+==========================*/
+
+header {
+    background: aliceblue;
+    padding: 10px 0px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+li {
+    display: inline;
+    padding: 0 135px;
+}
+
+header a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #707070;
+    transition: .3s
+}
+
+header a:hover {
+    color: green;
+    transition: .3s;
+}
+
+/*=========================
+
+
+
+
+Hero Image Styling
+
+
+
+============================= */
