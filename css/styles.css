@@ -11,7 +11,7 @@ University Styling
   padding: 0;
   border: 0;
   margin: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
   font-family: 'PT Sans', sans-serif;
 }
 
@@ -152,7 +152,7 @@ Main Content Styling
     float: left;
     background: #e8e8dd87;
     padding: 20px;
-    height: 280px;
+    height: 320px;
     overflow-y: scroll;
 }
 
