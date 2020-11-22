@@ -249,3 +249,30 @@ p.btn-skyblue {
   background: #F7F4F9;
   transition: .3s;
 }
+
+
+/*=========================
+
+
+
+
+Css Animation
+
+
+
+============================= */
+
+h2 {
+  animation-name: slidein;
+  animation-duration: 3S
+}
+
+@keyframes slidein{
+  from{
+    margin-left: 100%
+  }
+
+  to{
+    margin-left: 0%
+  }
+}
