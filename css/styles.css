@@ -120,7 +120,8 @@ Main Content Styling
 
 
 .elephants,
-.Tigers {
+.Tigers,
+.rhinoceros {
     display: flex;
     margin: 10px 40px 0px;
     justify-content: center;
@@ -128,7 +129,8 @@ Main Content Styling
 }
 
 
-.eimg {
+.eimg,
+.j-img {
     display: inline-block;
     float: left;
     position: relative;
@@ -137,14 +139,16 @@ Main Content Styling
 
 
 .ei,
-.ti {
+.ti,
+.ji {
     width: 420px;
     height: 320px;
     object-fit: cover;
 }
 
 .e-content,
-.t-content {
+.t-content,
+.j-content {
     float: left;
     background: #e8e8dd87;
     padding: 20px;
@@ -153,7 +157,8 @@ Main Content Styling
 }
 
 #title-1,
-#title-2 {
+#title-2,
+#title-3 {
     display: block;
     text-align: center;
     margin-bottom: 3px;
@@ -182,10 +187,6 @@ Link and Hover-effect
 
 
 ============================= */
-
-
-
-
 .elephants-link,
 .tiger-link {
     display: block;
@@ -221,4 +222,30 @@ Link and Hover-effect
 .text a:hover {
     color: #5f2b1c;
     transition: .3s;
+}
+
+span.highlight {
+    font-weight: bold;
+    color: #f30808;
+}
+
+p.btn-skyblue {
+    text-align: center;
+    margin: 50px;
+}
+
+.btn-skyblue a {
+    background: #97bdc6;
+    color: #F7F4F9;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.btn-skyblue a:hover{
+  color:#97bdc6;
+  background: #F7F4F9;
+  transition: .3s;
 }
